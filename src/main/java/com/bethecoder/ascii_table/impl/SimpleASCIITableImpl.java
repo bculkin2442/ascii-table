@@ -47,8 +47,10 @@ public class SimpleASCIITableImpl implements IASCIITable {
 		return columnCount;
 	}
 
-	private static String getFormattedData(int maxLength, String data,
+	private static String getFormattedData(int maxLength, String dat,
 			AlignmentValues align) {
+		String data = dat;
+		
 		if (data.length() > maxLength) {
 			return data;
 		}

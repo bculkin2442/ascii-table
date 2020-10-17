@@ -3,6 +3,7 @@ package com.bethecoder.ascii_table.test;
 import java.text.NumberFormat;
 import java.util.Scanner;
 
+@SuppressWarnings("javadoc")
 public class ChainMatrix {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
